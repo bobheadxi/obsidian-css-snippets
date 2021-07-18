@@ -1,0 +1,13 @@
+.markdown-preview-view pre, .cm-s-obsidian .HyperMD-codeblock .cm-hmd-codeblock {
+    border: none;
+    /* smaller-font code blocks*/
+    font-size: 85% !important;
+}
+.theme-light .token.entity {
+    /* fix highlighting bug (?) */
+    background: none;
+}
+.markdown-preview-view code {
+    /* don't word-wrap */
+    white-space: pre !important;
+}

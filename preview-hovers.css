@@ -1,0 +1,4 @@
+/* reasonably sized hovers */
+.popover.hover-popover {
+    width: 30rem !important;
+}

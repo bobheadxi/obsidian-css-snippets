@@ -1,0 +1,96 @@
+/* Customizations for https://github.com/kepano/obsidian-minimal */
+
+.titlebar {
+    border-bottom: none;
+}
+.titlebar-button-container {
+    top: 0;
+}
+/* .view-header {
+    padding-top: 0.25rem;
+} */
+.view-header-icon {
+    opacity: 0.25;
+    transition: opacity 0.25s ease-in-out;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+.view-header-title-container {
+    position: absolute;
+    width: 100%;
+}
+.view-header-title {
+    font-size: 0.9rem;
+    opacity: 0.75;
+    text-align: center;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    position: relative;
+}
+
+.workspace-ribbon-collapse-btn {
+    padding: 20px 6px;
+}
+
+/* Outliner compat */
+.markdown-preview-view:not(.allow-fold-lists) .list-collapse-indicator {
+    /* override hiding of collapse */
+    display: unset;
+}
+.markdown-preview-view ul > li:not(.task-list-item)::before {
+    margin-top: 11px !important;
+}
+.markdown-preview-view .collapse-indicator {
+    margin-top: -0.1rem;
+    transition: all 0.25s ease;
+}
+.outliner-plugin-bls .cm-s-obsidian span.cm-formatting-list-ul:before {
+    margin-top: -7px !important;
+}
+body.minimal-rel-preview .markdown-preview-view ul ul::before {
+    left: -13px !important;
+}
+
+.status-bar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 0.5rem;
+
+    opacity: 0.25;
+    transition: opacity 0.25s ease-in-out;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+.status-bar:hover {
+    opacity: 1;
+}
+
+.markdown-preview-view .markdown-embed {
+    margin-top: var(--nested-padding);
+    margin-bottom: var(--nested-padding);
+    padding: 0.5rem;
+}
+
+.markdown-preview-view .markdown-embed .markdown-embed-title,
+.markdown-preview-view .markdown-embed h1,
+.markdown-preview-view .markdown-embed h2,
+.markdown-preview-view .markdown-embed h3,
+.markdown-preview-view .markdown-embed h4,
+.markdown-preview-view .markdown-embed h5 {
+    display: block;
+    font-variant: small-caps;
+}
+.markdown-preview-view .markdown-embed .markdown-embed-title {
+    line-height: unset;
+    height: unset;
+    margin-top: 0.5rem;
+}
+
+.markdown-embed-link, .file-embed-link {
+    top: 1rem;
+}

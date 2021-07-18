@@ -1,0 +1,5 @@
+/* KBD */
+kbd {
+    padding: 3px 6px;
+    background-color: var(--background-tertiary);
+}

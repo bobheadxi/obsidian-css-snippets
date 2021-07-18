@@ -1,0 +1,17 @@
+/* Customizations for https://github.com/chetachiezikeuzor/Yin-and-Yang-Theme */
+
+/* Outliner compat */
+.cm-hmd-list-indent > .cm-tab:after {
+    display: none; /* disable theme outline in favour of outliner */
+}
+.outliner-plugin-bls .cm-s-obsidian span.cm-formatting-list-ul:before {
+    margin-top: 0 !important;
+}
+/* Checkmark positioning fix */
+.markdown-preview-view .task-list-item-checkbox:checked::before {
+    top: -4px !important;
+    left: -3px !important;
+}
+.markdown-preview-view .collapse-indicator::before {
+    top: 0px !important;
+}

@@ -1,0 +1,15 @@
+/* Outliner */
+.outliner-plugin-bls .cm-s-obsidian span.cm-formatting-list {
+    letter-spacing: 0 !important;
+}
+.outliner-plugin-bls .cm-s-obsidian span.cm-formatting-list-ul:before {
+    margin-left: -2px !important;
+    margin-right: 0 !important;
+}
+.markdown-preview-view div.is-collapsed h1::after, .markdown-preview-view div.is-collapsed h2::after, .markdown-preview-view div.is-collapsed h3::after, .markdown-preview-view div.is-collapsed h4::after, .markdown-preview-view div.is-collapsed h5::after, .markdown-preview-view ol .is-collapsed::after, .markdown-preview-view ul .is-collapsed::after {
+    /* Make outliner collapsed section more apparent */
+    background-color: var(--background-secondary);
+    border-radius: 0.25rem;
+    padding: 0px 6px 3px 5px;
+    margin-left: 0.5rem;
+}

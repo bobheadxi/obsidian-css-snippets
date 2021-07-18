@@ -1,0 +1,20 @@
+/* Customizations for https://github.com/mgmeyers/obsidian-california-coast-theme */
+
+:root {
+    --bold-weight: 700 !important;
+}
+
+.markdown-preview-view h1 {
+    margin-top: inherit;
+}
+
+/* blockquote tweaks */
+.markdown-preview-view blockquote {
+    font-style: normal !important;
+}
+.markdown-preview-view blockquote > p {
+    opacity: 0.8 !important;
+}
+.markdown-preview-view blockquote::before {
+    opacity: 0.5 !important;
+}

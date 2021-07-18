@@ -1,0 +1,9 @@
+/* CODE IN EDITOR */
+.cm-s-obsidian div.HyperMD-codeblock-bg,
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg,
+.cm-s-obsidian div.HyperMD-codeblock-end-bg {
+    border: none !important;
+}
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg{
+    padding: 0 !important;
+}

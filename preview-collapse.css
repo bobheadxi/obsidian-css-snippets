@@ -1,0 +1,10 @@
+/* Make collapsed section more apparent */
+.markdown-preview-view ul .is-collapsed::after {
+    background-color: var(--background-secondary);
+    border-radius: 0.25rem;
+    padding: 0px 6px 3px 5px;
+    margin-left: 0.5rem;
+}
+.markdown-preview-view .collapse-indicator {
+    margin-top: -0.2rem;
+}
