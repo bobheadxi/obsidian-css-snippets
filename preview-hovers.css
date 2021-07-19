@@ -2,3 +2,6 @@
 .popover.hover-popover {
     width: 30rem !important;
 }
+.popover.hover-popover .markdown-embed {
+    height: fit-content;
+}

@@ -6,16 +6,15 @@
 .titlebar-button-container {
     top: 0;
 }
-/* .view-header {
-    padding-top: 0.25rem;
-} */
 .view-header-icon {
     opacity: 0.25;
     transition: opacity 0.25s ease-in-out;
-    transition-property: opacity;
-    transition-duration: 0.25s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
+}
+.focus-mode .view-header-icon {
+    opacity: 0;
+}
+.focus-mode .view-header-icon:hover {
+    opacity: 0.5;
 }
 .view-header-title-container {
     position: absolute;
@@ -61,10 +60,6 @@ body.minimal-rel-preview .markdown-preview-view ul ul::before {
 
     opacity: 0.25;
     transition: opacity 0.25s ease-in-out;
-    transition-property: opacity;
-    transition-duration: 0.25s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
 }
 .status-bar:hover {
     opacity: 1;
