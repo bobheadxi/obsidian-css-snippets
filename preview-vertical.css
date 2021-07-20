@@ -1,3 +1,10 @@
 .view-content > div > .markdown-preview-view > .markdown-preview-sizer.markdown-preview-section {
-    transform: translateY(clamp(0px, calc(50vh - 25%), 100%));
+    /* 
+        goal: short notes midpoint at 40vh
+        bottom: pushes up 20vh
+        content: ~20vh for short note
+        push down: 40 + 20 - (20/2) = 50
+    */
+    padding-bottom: 20vh !important;
+    transform: translateY(clamp(0px, calc(50vh - 50%), 40vh));
 }
