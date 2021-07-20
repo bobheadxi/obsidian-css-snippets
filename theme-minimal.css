@@ -6,15 +6,16 @@
 .titlebar-button-container {
     top: 0;
 }
-.view-header-icon {
+.workspace-ribbon:not(.is-collapsed) ~ .mod-root .view-header-icon {
     opacity: 0.25;
-    transition: opacity 0.25s ease-in-out;
+    transition: opacity 0 ease-in-out;
 }
 .focus-mode .view-header-icon {
     opacity: 0;
 }
-.focus-mode .view-header-icon:hover {
-    opacity: 0.5;
+.view-header-icon:hover {
+    color: var(--text-muted);
+    opacity: 1 !important;
 }
 .view-header-title-container {
     position: absolute;
