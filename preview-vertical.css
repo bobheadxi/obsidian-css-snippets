@@ -6,5 +6,5 @@
         push down: 40 + 20 - (20/2) = 50
     */
     padding-bottom: 20vh !important;
-    transform: translateY(clamp(0px, calc(50vh - 50%), 40vh));
+    transform: translateY(clamp(0px, calc(50vh - 45%), 40vh));
 }

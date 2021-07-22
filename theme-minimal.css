@@ -15,30 +15,6 @@
     opacity: 1 !important;
 }
 
-.view-header-icon {
-    opacity: 0.25;
-    transition: opacity 0.25s ease-in-out;
-}
-.focus-mode .view-header-icon {
-    opacity: 0;
-}
-.view-header-icon:hover {
-    color: var(--text-muted);
-    opacity: 1 !important;
-}
-.view-header-title-container {
-    position: absolute;
-    width: 100%;
-}
-.view-header-title {
-    font-size: 0.9rem;
-    opacity: 0.75;
-    text-align: center;
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
-    position: relative;
-}
-
 .workspace-ribbon-collapse-btn {
     padding: 20px 6px;
 }
