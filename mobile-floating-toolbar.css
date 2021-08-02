@@ -1,0 +1,28 @@
+.is-mobile .mobile-toolbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    width: fit-content;
+    max-width: 90%;
+    overflow: scroll;
+
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-height: 740px) {
+    .is-mobile .mobile-toolbar {
+        margin-bottom: 1rem;
+    }
+}
+
+/* for workspace content to go underneath toolbar */
+.is-mobile .workspace-leaf-content > .view-content > .markdown-source-view {
+    height: 100%;
+}

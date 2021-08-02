@@ -75,3 +75,8 @@ body.minimal-rel-preview .markdown-preview-view ul ul::before {
 .markdown-embed-link, .file-embed-link {
     top: 1rem;
 }
+
+.mobile-toolbar {
+    /* halfish of the box shadow used elsewhere in theme */
+    box-shadow: 0 2.5px 15px rgb(0 0 0 / 15%);
+}
