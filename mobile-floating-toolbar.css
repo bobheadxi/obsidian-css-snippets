@@ -12,6 +12,8 @@
 
     border: 1px solid var(--background-modifier-border);
     border-radius: 1rem;
+    box-shadow: 0 2.5px 15px rgb(0 0 0 / 15%);
+
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
@@ -25,4 +27,8 @@
 /* for workspace content to go underneath toolbar */
 .is-mobile .workspace-leaf-content > .view-content > .markdown-source-view {
     height: 100%;
+}
+
+.is-mobile .mobile-toolbar {
+  
 }
