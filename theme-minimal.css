@@ -28,14 +28,8 @@
     margin-top: 11px !important;
 }
 .markdown-preview-view .collapse-indicator {
-    margin-top: -0.1rem;
+    /* margin-top: -0.1rem; */
     transition: all 0.25s ease;
-}
-.outliner-plugin-bls .cm-s-obsidian span.cm-formatting-list-ul:before {
-    margin-top: -7px !important;
-}
-body.minimal-rel-preview .markdown-preview-view ul ul::before {
-    left: -13px !important;
 }
 
 .status-bar {
