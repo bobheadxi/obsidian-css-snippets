@@ -1,54 +1,54 @@
 /* Customizations for https://github.com/kepano/obsidian-minimal */
 
 .titlebar {
-    border-bottom: none;
+  border-bottom: none;
 }
 .titlebar-button-container {
-    top: 0;
-    transition: opacity 0.25s ease-in-out;
+  top: 0;
+  transition: opacity 0.25s ease-in-out;
 }
 .focus-mode .titlebar-button-container {
-    opacity: 0;
+  opacity: 0;
 }
 .titlebar-button-container:hover {
-    color: var(--text-muted);
-    opacity: 1 !important;
+  color: var(--text-muted);
+  opacity: 1 !important;
 }
 
 .workspace-ribbon-collapse-btn {
-    padding: 20px 6px;
+  padding: 20px 6px;
 }
 
 /* Outliner compat */
 .markdown-preview-view:not(.allow-fold-lists) .list-collapse-indicator {
-    /* override hiding of collapse */
-    display: unset;
+  /* override hiding of collapse */
+  display: unset;
 }
 .markdown-preview-view ul > li:not(.task-list-item)::before {
-    margin-top: 11px !important;
+  margin-top: 11px !important;
 }
 .markdown-preview-view .collapse-indicator {
-    /* margin-top: -0.1rem; */
-    transition: all 0.25s ease;
+  /* margin-top: -0.1rem; */
+  transition: all 0.25s ease;
 }
 
 .status-bar {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    border-top-left-radius: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 0.5rem;
 
-    opacity: 0.25;
-    transition: opacity 0.25s ease-in-out;
+  opacity: 0.25;
+  transition: opacity 0.25s ease-in-out;
 }
 .status-bar:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .markdown-preview-view .markdown-embed {
-    margin-top: var(--nested-padding);
-    margin-bottom: var(--nested-padding);
-    padding: 0.5rem;
+  margin-top: var(--nested-padding);
+  margin-bottom: var(--nested-padding);
+  padding: 0.5rem;
 }
 
 .markdown-preview-view .markdown-embed .markdown-embed-title,
@@ -57,15 +57,23 @@
 .markdown-preview-view .markdown-embed h3,
 .markdown-preview-view .markdown-embed h4,
 .markdown-preview-view .markdown-embed h5 {
-    display: block;
-    font-variant: small-caps;
+  display: block;
+  font-variant: small-caps;
 }
 .markdown-preview-view .markdown-embed .markdown-embed-title {
-    line-height: unset;
-    height: unset;
-    margin-top: 0.5rem;
+  line-height: unset;
+  height: unset;
+  margin-top: 0.5rem;
 }
 
-.markdown-embed-link, .file-embed-link {
-    top: 1rem;
+.markdown-embed-link,
+.file-embed-link {
+  top: 1rem;
+}
+.markdown-source-view.is-live-preview .markdown-embed {
+  border-left: none;
+}
+
+.internal-link {
+  text-decoration: none !important;
 }
